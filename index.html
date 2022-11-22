@@ -5,35 +5,86 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="style.css" />
     <script src="main.js"></script>
 
-    <!-- Hotjar Tracking Code for my site -->
-    <script>
-      (function (h, o, t, j, a, r) {
-        h.hj =
-          h.hj ||
-          function () {
-            (h.hj.q = h.hj.q || []).push(arguments);
-          };
-        h._hjSettings = { hjid: 3236732, hjsv: 6 };
-        a = o.getElementsByTagName("head")[0];
-        r = o.createElement("script");
-        r.async = 1;
-        r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
-        a.appendChild(r);
-      })(window, document, "https://static.hotjar.com/c/hotjar-", ".js?sv=");
-    </script>
-  </head>
-  <body>
-    <div class="main-content">
-      <div class="block block-1">bloque 1</div>
-      <div class="block block-2">bloque 2</div>
-      <div class="block block-3">bloque 3</div>
-      <div class="block block-4">bloque 4</div>
-      <div class="block block-5">bloque 5</div>
-      <div class="block block-6">bloque 6</div>
-      <div class="block block-7">bloque 7</div>
+<!-- Hotjar Tracking Code for https://dana-saldana.github.io/Practica.github.io/ -->
+<script>
+  (function(h,o,t,j,a,r){
+      h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+      h._hjSettings={hjid:3260010,hjsv:6};
+      a=o.getElementsByTagName('head')[0];
+      r=o.createElement('script');r.async=1;
+      r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+      a.appendChild(r);
+  })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+</script>
+<body>
+  <!-- nav  -->
+  <nav class="navbar">
+    <div class="nav-center">
+      <div class="nav-header">
+        <a href="index.html" class="nav-logo">
+          <h1>Next40</h1>
+        </a>
+      </div>
+      <div class="nav-links">
+        <input type="text" placeholder="Venta de equipos">
+      </div>
     </div>
-  </body>
+  </nav>
+  <!-- end of nav -->
+  <!-- main -->
+  <main class="page">
+    <section class="equipment-container">
+      <h4>Equipos</h4>
+      <div class="equipment-list">
+        <div class="equip">
+          <div class="equip-info">
+            <img src="./TV.jpg" class="img equip-img" alt="" />
+            <a href="" class="info-link">Ver Informacion</a>
+          </div>     
+          <div class="info">
+            <h5>TV LG 54'</h5>
+            <p>S/2500 | Envio Gratis</p>
+          </div>
+        </div>
+        <div class="equip">
+          <div class="equip-info">
+            <img src="./TV.jpg" class="img equip-img" alt="" />
+            <a href="" class="info-link">Ver Informacion</a>
+          </div>     
+          <div class="info">
+            <h5>TV Samsung 65'</h5>
+            <p>S/2000| Envio Gratis</p>
+          </div>
+        </div>
+        <div class="equip">
+          <div class="equip-info">
+            <img src="./TV.jpg" class="img equip-img" alt="" />
+            <a href="" class="info-link">Ver Informacion</a>
+          </div>     
+          <div class="info">
+            <h5>TV PHILIPS 54'</h5>
+            <p>S/1500| Envio Gratis</p>
+          </div>
+        </div>
+      </div>
+      <div class="nav-link contact-link view-more">
+        <a href="equipment.html" class="btn"> Ver más</a>
+      </div>
+      
+    </section>
+  </main>
+  <!-- end of main -->
+  <!-- footer -->
+  <footer class="page-footer">
+    <p>
+      &copy; <span id="date"></span>
+      <span class="footer-logo">Netx40</span> desarrollado por
+      <a href="">Dana Saldaña</a>
+    </p>
+  </footer>
+</body>
 </html>
+
